@@ -1,0 +1,83 @@
+.body{
+    background-color: #212121;
+  }
+.red
+  {
+    color: white;
+    background-color: red;
+  }
+
+.green  {
+    color: white;
+    background-color: green;
+  }
+
+.blue
+  {
+    color: white;
+    background-color: blue;
+  }
+
+.carousel{
+    height: 500px;
+    
+}
+
+.container{
+  
+  
+}
+
+.panel-heading{
+    border-style: dotted;
+    border-color: black;
+    padding-left: 10px;
+    background-color: #a69d9c;
+}
+.panel-body{
+  border-style: solid;
+  border-color: black;
+  background-color: #a69d9c;
+  padding-left: 10px;
+}
+.panel{
+  padding: 20px;
+}
+.heading{
+    font-size: 40pt;
+    font-family: "Courier New", monospace;
+}
+.heading2{
+    font-size: 20pt;
+    font-family: "Courier New", monospace;
+    color: #b1df33;
+}
+.heading3{
+  font-size: 30pt;
+  font-family: "Courier New", monospace;
+  color: black;
+}
+
+.carouselCont{
+    height: 500px;
+}
+.slide1{
+    background-image: url('Album Pic.jpg');
+}
+.slide2{
+    background-image: url('AcousticGuitar.jpg');
+}
+
+.carousel-item{
+    height:500px;
+}
+.carousel-caption{
+    bottom: 0;
+    right:0;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+/* CSS Document */
+
+/* CSS Document */
+
