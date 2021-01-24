@@ -34,11 +34,12 @@
     padding: 10px;
     background-color: #a69d9c;
 }
-.panel-body{
-  border-style: solid;
-  border-color: black;
-  background-color: #a69d9c;
-  padding-left: 10px;
+.panel-body {
+    border-style: solid;
+    border-color: black;
+    background-color: #a69d9c;
+    padding-left: 10px;
+    font-family: "Courier New", monospace;
 }
 .panel{
   padding: 20px;
@@ -84,8 +85,8 @@
 }
 .img-circle2{
     border-radius: 50%;
-    width: 22%;
-    height: 22%;
+    width: 20%;
+    height: 20%;
     padding-right: 5px;
 }
 
@@ -99,7 +100,7 @@
 }
 
 .navbar-brand{
-    padding-left: 22%;
+    padding-left: 2%;
     
 }
 
