@@ -81,9 +81,15 @@
     border-radius: 50%;
     width: 10%;
     height: 10%;
-    
-    
-    
+}
+.img-circle2{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    padding-right: 5px;
+}
+.navbar-brand{
+    padding-left: 20px;
 }
 .avatar-row{
     display: inline-flex;
@@ -95,3 +101,11 @@
     padding: 15px;
 }
 
+.centerNav{
+    align-items: center;
+}
+
+
+.jumbotron{
+    margin-bottom: 0px;
+}
