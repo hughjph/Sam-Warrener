@@ -84,28 +84,25 @@
 }
 .img-circle2{
     border-radius: 50%;
-    width: 20%;
-    height: 20%;
+    width: 22%;
+    height: 22%;
     padding-right: 5px;
 }
-.navbar-brand{
-    padding-left: 20px;
-}
-.avatar-row{
+
+.avatar-row {
     display: inline-flex;
     width: auto;
-    
 }
-.avatar-text{
+.avatar-text {
     float: right;
     padding: 15px;
 }
 
-.centerNav{
-    align-items: center;
+.navbar-brand{
+    padding-left: 22%;
+    
 }
 
 
-.jumbotron{
-    margin-bottom: 0px;
-}
+
+
