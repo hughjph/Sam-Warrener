@@ -1,16 +1,15 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
     <head>
-          <!-- Required meta tags always come first -->
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1">
+       <!-- Required meta tags always come first -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
        <meta http-equiv="x-ua-compatible" content="ie=edge">
 
        <!-- Bootstrap CSS -->
        <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
        <link rel="stylesheet" type="text/css" href="mainstyle.css">
        <script src="SamWarrener.js"></script>
-       <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     </head>
     <body class="body">
@@ -34,12 +33,12 @@
                         <a class="nav-link" href="#">News</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_targets" href="#">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
                             Discography
                             <span class="caret"></span>
                         </a>
 
-                        <div class="dropdown-menu" aria-labelledby="dropdown_targets">
+                        <div class="dropdown-menu" aria-labelledby="dropdown_target">
                             <a class="dropdown-item" href="discography/LifeInLockdown.html">Life In Lockdown</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="discography/SacrificeMySoul.html">Sacrifice My Soul</a>
@@ -58,40 +57,46 @@
         </nav>
 
         <div class="panel">
-            <div class="panel-heading text-center">
-                <h3 class="heading">
-                    Shows
-                </h3>
+            <div class="panel-heading">
+                <h2 class="heading3" style="padding-left: 15px;">Contact</h2>
             </div>
             <br />
-            <div class="panel-body text-center">
-                <h2>
-                    Barge and Bottle
-                </h2>
-                <img src="https://i2-prod.lincolnshirelive.co.uk/news/local-news/article578094.ece/ALTERNATES/s615b/Sleaford-OktoberfestJPG.jpg" />
-                <p>On the 21st of your mum I will be october 2021..... 456</p>
+            <div class="panel-body">
+                <div class="contact-form">
 
-                <a class="btn btn-primary" href="#">Click Here For More Info</a>
-                <br />
+                    <form id="contact-form" method="post" action="contact-form-handler.php">
+                        <label>Name</label>
+                        <input class="form-control" name="name" type="text" style="padding:5px; width: 20%" />
+                        <br />
+                        <label>Email</label>
+                        <input class="form-control" name="email" type="text" style="padding:5px; width: 20%" />
+                        <br />
+                        <label> Enquiry </label>
+                        <br />
+                        <textarea class="form-control" name="enquiry" type="text" style="padding:5px; width: 30%; height:150px"></textarea>
+                        <br />
+                        
+                        <p>Submit button will be here</p>
 
-            </div>
-            <br />
-            <div class="panel-body text-center">
-                <h2>
-                    Your Mum's House
-                </h2>
-                <img src="https://www.thesun.co.uk/wp-content/uploads/2020/07/NINTCHDBPICT000591301622.jpg?w=620" />
-                <p>Yeah, you read that right</p>
-                <a class="btn btn-primary" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO">Click Here For More Info</a>
+                        <!--
+                        <button class="btn btn-primary form-control submit" onClick="contact()">Submit</button>
+                        -->
 
+                    </form>
+
+
+                </div>
+                
+                
             </div>
         </div>
 
-
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+
     </body>
+
+
+
 
 </html>
