@@ -9,3 +9,6 @@ function Spotify(){
     window.open("https://distrokid.com/hyperfollow/samwarrener/life-in-lockdown");
 }
 
+function PreSave() {
+    window.open("https://distrokid.com/hyperfollow/samwarrener/sacrifice-my-soul");
+}

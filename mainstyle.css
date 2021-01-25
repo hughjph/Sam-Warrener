@@ -1,6 +1,11 @@
 .body{
     background-color: #212121;
   }
+.body-sacrificeSoulBck{
+    background-image: url('SacrificeMySoulBckBlurred.jpg');
+    
+}
+
 .red
   {
     color: white;
@@ -62,6 +67,7 @@
 
 .carouselCont{
     height: 500px;
+    
 }
 .slide1{
     background-image: url('Album Pic.jpg');
@@ -75,9 +81,11 @@
 }
 .carousel-caption{
     bottom: 0;
-    right:0;
-    padding-right: 150px;
     padding-bottom: 50px;
+}
+.righttext {
+    right: 0;
+    padding-right: 150px;
 }
 
 .img-circle {
@@ -98,7 +106,7 @@
 }
 .avatar-text {
     float: right;
-    padding: 15px;
+    
 }
 
 .navbar-brand{

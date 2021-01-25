@@ -12,7 +12,7 @@
     <script src="SamWarrener.js"></script>
     
   </head>
-  <body class="body">
+  <body class="body-sacrificeSoulBck">
 
       <!--HEADING-->
       <!--
@@ -78,21 +78,28 @@
       </nav>
 
       <!--CAROUSEL-->
-      <div class="container carouselCont">
+      <div class="carouselCont">
           <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                  <br />
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  
 
                   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                       <ol class="carousel-indicators">
                           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-
+                          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                       </ol>
 
                       <div class="carousel-inner" role="listbox">
 
-                          <div class="carousel-item slide1 active">
+                          <div class="carousel-item slide3 active">
+                              <div class="carousel-caption text-center" >
+                                  <h3 class="heading" style="color: black;">Presave My Single</h3>
+                                  <button class="btn btn-primary" onclick="PreSave()">PreSave</button>
+                              </div>
+                          </div>
+
+                          <div class="carousel-item slide1 righttext">
 
                               <div class="carousel-caption text-right">
                                   <h2 class="heading2">Follow Me On Instagram</h2>
@@ -100,12 +107,14 @@
                               </div>
                           </div>
 
-                          <div class="carousel-item slide2">
+                          <div class="carousel-item slide2 righttext">
                               <div class="carousel-caption text-right">
                                   <h3 class="heading2">Check Out My New Album</h3>
                                   <button class="btn btn-success" onClick="Spotify()">Life In Lockdown</button>
                               </div>
                           </div>
+
+
 
 
 
