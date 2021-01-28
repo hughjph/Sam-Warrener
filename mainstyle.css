@@ -2,7 +2,7 @@
     background-color: #212121;
   }
 .body-sacrificeSoulBck{
-    background-image: url('SacrificeMySoulBckBlurred.jpg');
+    background-image: url('Pictures/SacrificeMySoulBckBlurred.jpg');
     
 }
 
@@ -70,10 +70,10 @@
     
 }
 .slide1{
-    background-image: url('Album Pic.jpg');
+    background-image: url('Pictures/Album Pic.jpg');
 }
 .slide2{
-    background-image: url('AcousticGuitar.jpg');
+    background-image: url('Pictures/AcousticGuitar.jpg');
 }
 
 .carousel-item{
@@ -119,4 +119,54 @@
     width: 100%;
 }
 
+.showData {
+    border-color: azure;
+    border-bottom-style: solid;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+    width: 100%;
+    
+    height: 200px;
+    font-family: Courier New, Courier, monospace;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.showDataCont {
+    float: left;
+    width: 60%;
+}
 
+.image{
+    float:left;
+    width:20%;
+    height:255px;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+}
+.imageNextToObj {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: inherit;
+}
+
+
+.navbar1{
+    z-index: 90;
+}
+.navbar2 {
+    z-index: 80;
+    top: 56px;
+    
+    
+}
+
+.sticky-offset {
+    top: 78.03px;
+}
+
+#collapse_target2 {
+    
+}
