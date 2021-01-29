@@ -5,7 +5,7 @@ function Instagram() {
     window.open("https://www.instagram.com/sam__warrener/");
 }
 
-function Spotify(){
+function SpotifyLil(){
     window.open("https://distrokid.com/hyperfollow/samwarrener/life-in-lockdown");
 }
 
