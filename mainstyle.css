@@ -28,10 +28,7 @@
     
 }
 
-.container{
-  
-  
-}
+
 
 .panel-heading{
     border-style: dotted;
@@ -204,4 +201,37 @@
     margin-right: auto;
     width: 60%;
     color: lightgray;
+}
+.shop{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height:560px;
+}
+.shop-item {
+    display:flex;
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    background-color: #343a40;
+    color: lightgray;
+    box-shadow: 2px 2px black;
+    
+}
+.shop-container {
+    padding-left: 30px;
+    height: 500px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.shop-image {
+    border-radius: 6px;
+    box-shadow: 2px 2px black;
+}
+.card{
+    color:aliceblue;
 }

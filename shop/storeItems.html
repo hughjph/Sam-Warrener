@@ -1,17 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-
-    <!--Google Maps-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=INSERT_API_KEY_HERE_&callback=initMap&libraries=&v=weekly"
-            defer>
-
-    </script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
@@ -20,27 +13,46 @@
 
 </head>
 <body class="body">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+
+    <!--HEADING-->
+    <!--
+      <div class="container">
+          <div class="panel-heading text-center">
+              <img class="img-circle" src="https://instagram.fgba1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/128740154_240440644088580_4267028720699916398_n.jpg?_nc_ht=instagram.fgba1-1.fna.fbcdn.net&_nc_ohc=f5q1kYl5UBkAX_ovRtz&tp=1&oh=66ea72281a9cfa63232297428a899e4b&oe=60355941" />
+              <row class="avatar-row">
+                  <h3 class="heading avatar-text">Sam Warrener</h3>
+              </row>
+          </div>
+      </div>
+    -->
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top mx-auto">
 
         <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <a class="navbar-brand">
-            <img class="img-circle2" src="https://instagram.fgba1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/128740154_240440644088580_4267028720699916398_n.jpg?_nc_ht=instagram.fgba1-1.fna.fbcdn.net&_nc_ohc=f5q1kYl5UBkAX_ovRtz&tp=1&oh=66ea72281a9cfa63232297428a899e4b&oe=60355941" />
-            <span class="navbar-text">Sam Warrener</span>
-        </a>
+
 
         <div class="collapse navbar-collapse" id="collapse_target">
+
+            <a class="navbar-brand">
+                <img class="img-circle2" src="https://instagram.fgba1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/128740154_240440644088580_4267028720699916398_n.jpg?_nc_ht=instagram.fgba1-1.fna.fbcdn.net&_nc_ohc=f5q1kYl5UBkAX_ovRtz&tp=1&oh=66ea72281a9cfa63232297428a899e4b&oe=60355941" />
+                <span class="navbar-text">Sam Warrener</span>
+            </a>
+
             <ul class="navbar-nav centerNav">
+
+
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <!--
-               <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="#">News</a>
-               </li>
-    -->
+                </li>
+
+                  -->
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
@@ -59,7 +71,7 @@
                     <a class="nav-link" href="../shows.html">Shows</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../shop/storeItems.html">Shop</a>
+                    <a class="nav-link" href="storeItems.html">Shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../contact.html">Contact</a>
@@ -69,47 +81,42 @@
 
     </nav>
 
-    <!---->
-    <div id="map" class="text-center"></div>
+    <br />
+    <div class="album py-5 bg-dark">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <!--Item-->
+                <div class="col">
+                    <div class="card shadow-sm bg-dark text-center">
+                        <img class="card-img-top" src="../Pictures/AlbumCover.jpg">
+                        <form>
+                            <h1>Life In Lockdown</h1>
+                            <label>$420.69</label>
+                            <br />
+                            <label>Quantity</label>
+                            <input class="Quantity" type="number" min="1" max="10" style="width: 50px" />
+                            <br />
+                            <button class="btn-primary btn-sm" OnClick="AddCart('LifeInLock')">Add To Cart</button>
+                        </form>
 
-    
-    <div class="image">
-        <img src="../Pictures/AcousticGuitar.jpg" class="imageNextToObj"/>
-    </div>
-    
+                    </div>
+                </div>
 
+                
 
-
-    <div class="text-center showDataCont">
-        <h1 style="font-family:  'Courier New', monospace; color: white">Oktoberfest Sleaford 2021</h1>
-        <div class="showData">
-            <div style="padding:2px">
-                <label>Location: Boston Road Recreation Ground Sleaford</label>
-                <br />
-                <label>Date: Whenever Oktoberfest is</label>
-                <br />
-                <label>Time: From 7PM</label>
 
             </div>
         </div>
+        
+        
+
     </div>
     
-    <div class="image">
-        <img src="../Pictures/AcousticGuitar.jpg" class="imageNextToObj"/>
-    </div>
-    
 
 
 
-
-
-
-
+    <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
 </body>
 </html>
-
-
-<!--A IzaSyC5x3h0RMAu7jPByQRv6dBQjcVzfLJKl80-->
-<!--API Key, remove the space to get it-->
