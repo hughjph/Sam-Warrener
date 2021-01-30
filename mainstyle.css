@@ -235,3 +235,18 @@
 .card{
     color:aliceblue;
 }
+
+.cart{
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #343a40;
+    color: aliceblue;
+    width: 450px;
+}
+.cart-table {
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

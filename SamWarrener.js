@@ -28,9 +28,7 @@ function initMap() {
     });
 }
 
-function AddCart(Item) {
-    console.log(Item);
-}
+
 
 
 //52.99838241083489, -0.4079490784180988

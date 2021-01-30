@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\discography",
-    "\\discography\\LifeInLockdown",
-    "\\Pictures"
+    "\\Pictures",
+    "\\shop",
+    "\\shop\\storeItems",
+    "\\shows"
   ],
-  "SelectedNode": "\\SamWarrener.js",
+  "SelectedNode": "\\shop\\store.js",
   "PreviewInSolutionExplorer": false
 }

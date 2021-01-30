@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags always come first -->
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../mainstyle.css">
     <script src="../SamWarrener.js"></script>
+    <script src="store.js" async></script>
 
 </head>
 <body class="body">
@@ -88,21 +89,37 @@
                 <!--Item-->
                 <div class="col">
                     <div class="card shadow-sm bg-dark text-center">
-                        <img class="card-img-top" src="../Pictures/AlbumCover.jpg">
-                        <form>
-                            <h1>Life In Lockdown</h1>
-                            <label>$420.69</label>
+                        <img class="card-img-top item-image" src="../Pictures/AlbumCover.jpg">
+                        <div>
+                            <h1 class="item-title">Life In Lockdown</h1>
+                            <label class="unit-cost">£15</label>
                             <br />
                             <label>Quantity</label>
-                            <input class="Quantity" type="number" min="1" max="10" style="width: 50px" />
+                            <input class="Quantity" type="number" min="1" max="10" style="width: 50px" value="1"/>
                             <br />
-                            <button class="btn-primary btn-sm" OnClick="AddCart('LifeInLock')">Add To Cart</button>
-                        </form>
+                            <button type="button" class="btn-primary btn-sm addCartButton">Add To Cart</button>
+                        </div>
 
                     </div>
                 </div>
 
-                
+                <div class="col">
+                    <div class="card shadow-sm bg-dark text-center">
+                        <img class="card-img-top item-image" src="../Pictures/SacrificeMySoul.jpg">
+                        <div>
+                            <h1 class="item-title">Sacrifice My Soul</h1>
+                            <label class="unit-cost">£13</label>
+                            <br />
+                            <label>Quantity</label>
+                            <input class="Quantity" type="number" min="1" max="10" style="width: 50px" value="1"/>
+                            <br />
+                            <button type="button" class="btn-primary btn-sm addCartButton">Add To Cart</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
 
 
             </div>
@@ -112,6 +129,23 @@
 
     </div>
     
+    <br />
+
+    <div class="cart">
+        <h2 class="text-center">CART</h2>
+        <table class="cart-table">
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+            
+
+
+        </table>
+        <h3 class="total text-right" style="padding: 10px;">Total: £0</h3>
+    </div>
 
 
 
